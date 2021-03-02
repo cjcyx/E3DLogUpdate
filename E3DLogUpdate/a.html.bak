@@ -1,0 +1,216 @@
+
+<html>
+<head>
+<title>BOMESC E3D����ͳ��</title>
+</head>
+<body>
+<h4>BOMESC-LICENSE E3D点数使用情况</h4>
+<table>
+<tr>
+<td valign="top">
+<table border="1">
+<tr>
+<th>专业</th>
+<th>正在使用</th>
+<th>分配数量</th>
+<th>超出/相差数量</th>
+</tr><tr>
+<td align="center">PI</td>
+<td align="center">4</td>
+<td align="center">7</td>
+<td align="center">-3</td>
+</tr>
+<tr>
+<td align="center">其他</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+</table>
+</td>
+<td valign="top">
+<table border="1">
+<tr>
+<th>PI</th>
+</tr>
+<tr>
+<td>RENCHUANG-PI</td>
+</tr>
+<tr>
+<td>LICHUANYONG-PI</td>
+</tr>
+<tr>
+<td>XINBO-PI</td>
+</tr>
+<tr>
+<td>ZHAOLANQI-IM</td>
+</tr>
+</table>
+</td>
+<td valign="top">
+<table border="1">
+<tr>
+<th>其他</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<br>
+更新时间：2021-02-26 02:05:48
+<br>
+BOMESC-LICENSE 点数共分配 7 个，目前使用 4 个。<br>
+
+<h4>MERO2项目E3D点数使用情况</h4>
+<table>
+<tr>
+<td valign="top">
+<table border="1">
+<tr>
+<th>专业</th>
+<th>正在使用</th>
+<th>分配数量</th>
+<th>超出/相差数量</th>
+</tr><tr>
+<td align="center">STRU</td>
+<td align="center">5</td>
+<td align="center">6</td>
+<td align="center">-1</td>
+</tr>
+<tr>
+<td align="center">PI</td>
+<td align="center">6</td>
+<td align="center">6</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">EIT</td>
+<td align="center">14</td>
+<td align="center">17</td>
+<td align="center">-3</td>
+</tr>
+<tr>
+<td align="center">其他</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+</table>
+</td>
+<td valign="top">
+<table border="1">
+<tr>
+<th>STRU</th>
+</tr>
+<tr>
+<td>华伟</td>
+</tr>
+<tr>
+<td>石鹏</td>
+</tr>
+<tr>
+<td>刘晓东</td>
+</tr>
+<tr>
+<td>王瑶</td>
+</tr>
+<tr>
+<td>程昕</td>
+</tr>
+</table>
+</td>
+<td valign="top">
+<table border="1">
+<tr>
+<th>PI</th>
+</tr>
+<tr>
+<td>王杰</td>
+</tr>
+<tr>
+<td>陈未</td>
+</tr>
+<tr>
+<td>李兴侠</td>
+</tr>
+<tr>
+<td>胡伟楠</td>
+</tr>
+<tr>
+<td>徐斌伟</td>
+</tr>
+<tr>
+<td>赵振宇</td>
+</tr>
+</table>
+</td>
+<td valign="top">
+<table border="1">
+<tr>
+<th>EIT</th>
+</tr>
+<tr>
+<td>张哲熙</td>
+</tr>
+<tr>
+<td>张红起</td>
+</tr>
+<tr>
+<td>刘明旺</td>
+</tr>
+<tr>
+<td>周辉</td>
+</tr>
+<tr>
+<td>姜兵</td>
+</tr>
+<tr>
+<td>朱伊宁</td>
+</tr>
+<tr>
+<td>周园园</td>
+</tr>
+<tr>
+<td>路敦营</td>
+</tr>
+<tr>
+<td>孔庆颖</td>
+</tr>
+<tr>
+<td>冷雪</td>
+</tr>
+<tr>
+<td>夏源</td>
+</tr>
+<tr>
+<td>石玉洋</td>
+</tr>
+<tr>
+<td>陈照晾</td>
+</tr>
+<tr>
+<td>赵家辉</td>
+</tr>
+</table>
+</td>
+<td valign="top">
+<table border="1">
+<tr>
+<th>其他</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<br>
+更新时间：2021-02-26 02:16:33
+<br>
+MERO2点数共分配 29 个，目前使用 25 个。<br>
+<progress value="25" max="29" /><br>
+</body>
+</html>
+<script language="JavaScript">
+setTimeout(function(){location.reload()},60000); //ָ��3��ˢ��һ��
+</script>
