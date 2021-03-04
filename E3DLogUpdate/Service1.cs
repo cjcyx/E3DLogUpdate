@@ -24,6 +24,7 @@ namespace E3DLogUpdate
             InitializeComponent();
         }
         public static string servername = "";
+        public static string path = @"C:\AVEVA\AVEVA Licensing System\RMS\";
         protected override void OnStart(string[] args)
         {
             //OnLicChange();
@@ -32,7 +33,7 @@ namespace E3DLogUpdate
                 OnfileChange();
            // });
             //var DelayFileSystemWatcher1 = new DelayFileSystemWatcher(@"E:\AVEVA\AVEVA Licensing System\RMS", "lservrc_AVEVA", Lic_Changed, 1500);
-            var DelayFileSystemWatcher = new DelayFileSystemWatcher(@"C:\AVEVA\AVEVA Licensing System\RMS", "usagelog.log", fileSystemWatcher_Changed, 1500);
+            var DelayFileSystemWatcher = new DelayFileSystemWatcher(path, "usagelog.log", fileSystemWatcher_Changed, 1500);
             FileStream fs = new FileStream(@"e:\log.txt", FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs);
             servername = Environment.MachineName;
@@ -125,7 +126,7 @@ namespace E3DLogUpdate
         {
             Dictionary<string, string> dic = new Dictionary<string, string>();
             XmlDocument doc = new XmlDocument();
-            doc.Load(@"E:\AVEVA\AVEVA Licensing System\RMS\usagelog.xml");
+            doc.Load(path+"usagelog.xml");
             XmlNode xn = doc.SelectSingleNode("map");
             XmlNodeList xnl = xn.ChildNodes;
             foreach (XmlNode xn1 in xnl)
@@ -213,7 +214,7 @@ namespace E3DLogUpdate
         private static void OnfileChange()
         {
             var dic = GetName();
-            var items = fileContains(@"C:\AVEVA\AVEVA Licensing System\RMS\usagelog.log");
+            var items = fileContains(path+"usagelog.log");
             for (int i = 0; i < items.Count; i += 50)
             {
                 List<ReceivedInfos> test = new List<ReceivedInfos>();
